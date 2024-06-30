@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Service</title>
+
+    <link rel="stylesheet" href="../css/service.css">
+    <link rel="website icon " href="../images/resturant%20logo.PNG" type="png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../webfonts/all.min.css">
+    <link rel="stylesheet" href="../webfonts/all.css">
+    <link rel="stylesheet" href="../js/all.min.js">
+    <link rel="stylesheet" href="../js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="../css/bootstrap.min.css.map" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<!--start the navBaar-->
+<nav class="navbar navbar-expand-lg bg-dark position-sticky  p-0">
+    <div class="container">
+        <img class="icon-img" src="../images/resturant%20logo.PNG" alt="">
+
+
+        <h2 class="navbar-brand p-3 logo fs-2 text " style="color:  #ffc400"  href="#">Palestinian Restaurant</h2>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0  ">
+                <li class="nav-item">
+                    <a class="nav-link  " aria-current="page" href="home.php">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.php">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="service.php">SERVICE</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        MENU
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="menu.php">Menu</a></li>
+                        <li><a class="dropdown-item" href="menu.php">Breakfast   </a></li>
+                        <li><a class="dropdown-item" href="menu.php">Lunch</a></li>
+                        <li><a class="dropdown-item" href="menu.php">Dinner</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contactnotes.php">CONTACT US</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--end of the navBar-->
+
+<!--intro-->
+<div class=" container-xll py-5 bg-dark hero-header mb-5 ">
+    <div class="container my-5 py-5">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6 text-center text lg-start ">
+                <h1 class="display-3 text-warning animated sliderInLeft "> Palestinian  Restaurant <i class="fa-regular fa-user-chef"></i>
+                </h1>
+               <a href="#initial"> <button  type="button" class="btn  btn-warning py-sm-3 px-sm-5 slideInLeft  rounded-pill book-btn ">Our Service</button> </a>
+            </div>
+            <div class="col-lg-6 text-center text-lg-end overflow-hidden">
+                <img src="../images/servicehead.jpg" class="img-fluid rounded-pill fs-2 text" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!--end intro-->
+
+<!-- start the open hours -->
+<div class="container text-center fs-3 text">
+<h2 class=" fs-2 text">Opening Hours</h2>
+    <table class="table text-center bg-dark text-white open-table mt-3 ">
+        <thead >
+        <tr class="table-dark" >
+            <th scope="col" >Day</th>
+            <th scope="col"> Open to Close</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="table-success">
+            <td>Saturday</td>
+            <td>10:00 AM - 9:00 PM</td>
+        </tr>
+        <tr  class="table-success">
+            <td>Sunday</td>
+            <td>10:00 AM - 11:00 PM</td>
+        </tr>
+        <tr  class="table-success">
+            <td >Monday</td>
+            <td>Closed</td>
+        </tr>
+        <tr  class="table-success">
+            <td >Tuesday</td>
+            <td>10:00 AM - 9:00 PM</td>
+        </tr>
+        <tr  class="table-success">
+            <td >Wednesday</td>
+            <td>10:00 AM - 10:00 PM</td>
+        </tr>
+        <tr  class="table-success">
+            <td >Thursday</td>
+            <td>9:00 AM - 11:00 PM</td>
+        </tr>
+        <tr  class="table-success">
+            <td >Friday</td>
+            <td>12:00 AM - 11:00 PM</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<!--end the open hours -->
+
+<!--start the initial service-->
+<div id="initial">
+<div class="container d-flex align-items-center p-4">
+    <div class="card m-3" style="width: 19rem; ">
+        <img src="../images/chef.jpg" class="card-img-top" alt="the chef">
+        <div class="card-body">
+            <h5 class="card-title">Master Chef</h5>
+            <p class="card-text">we believe that cooking is more than just preparing food—it's an art form, a way to express creativity.</p>
+            <a href="#masterchef" class="btn btn-dark text-warning">Show More...</a>
+        </div>
+    </div>
+
+    <div class="card m-3" style="width: 18rem;">
+        <img src="../images/Quality%20Food.jpg" class="card-img-top" alt="Quality Food
+">
+        <div class="card-body">
+            <h5 class="card-title">Quality Food</h5>
+            <p class="card-text">we are committed to delivering exceptional culinary experiences through the finest ingredients and meticulous preparation.</p>
+            <a href="#food" class="btn btn-dark text-warning">Show More...</a>
+        </div>
+    </div>
+
+    <div class="card m-3" style="width: 18rem;">
+        <img src="../images/online.jpg" class="card-img-top" alt="onlineOrde">
+        <div class="card-body">
+            <h5 class="card-title">Online Order</h5>
+            <p class="card-text"> we make it easy for you to enjoy our delicious dishes from the comfort of your home ,Our online ordering is simple. </p>
+            <a href="#online" class="btn btn-dark text-warning">Show More...</a>
+        </div>
+    </div>
+
+    <div class="card m-3" style="width: 18rem;">
+        <img src="../images/servise24.jpg" class="card-img-top" alt="24/7">
+        <div class="card-body">
+            <h5 class="card-title">24/7 Service</h5>
+            <p class="card-text">we work any time, day or night. That's why we're proud to offer our exceptional culinary services 24 hours a day, 7 days a week.</p>
+            <a href="#247service" class="btn btn-dark text-warning">Show More...</a>
+        </div>
+    </div>
+
+</div>
+</div>
+<!--end the initial service-->
+
+<!--show more info-->
+<div class="container  ">
+    <hr class="border border-dark border-3 opacity-75">
+
+    <div id="masterchef">
+        <h1>Welcome to Master Chef</h1>
+        <h2>Discover the Art of Culinary Excellence</h2>
+        <p>At Master Chef, we believe that cooking is more than just preparing food—it's an art form, a way to express creativity, and a means to bring people together. Whether you're a seasoned professional or an enthusiastic home cook, our platform offers something for everyone.</p>
+
+        <h3>Our Mission</h3>
+        <p>Our mission is to inspire and empower chefs of all levels to create extraordinary meals. We provide the tools, techniques, and tips you need to elevate your cooking skills and impress your guests.</p>
+
+        <h3>What We Offer</h3>
+        <ul>
+            <li><strong>Expert Recipes:</strong> Explore a wide range of recipes crafted by world-renowned chefs. From classic dishes to modern creations, our recipes are designed to delight your taste buds.</li>
+            <li><strong>Cooking Tutorials:</strong> Learn new techniques with our step-by-step video tutorials. Our expert chefs guide you through each process, ensuring you master the skills needed to cook like a pro.</li>
+            <li><strong>Ingredient Guides:</strong> Discover the best ingredients to use for every recipe. Our guides help you select the freshest produce, finest meats, and most flavorful spices.</li>
+            <li><strong>Community Support:</strong> Join a community of passionate chefs. Share your culinary creations, ask questions, and get feedback from fellow food enthusiasts.</li>
+        </ul>
+
+        <h3>Join Us on a Culinary Journey</h3>
+        <p>Embark on a culinary adventure with Master Chef. Whether you're looking to refine your skills, find new recipes, or simply enjoy the art of cooking, we are here to guide you every step of the way.</p>
+    </div>
+    <hr class="border border-dark border-3 opacity-75">
+
+    <div id="food">
+        <h1>Quality Food</h1>
+        <h2>Taste the Difference</h2>
+        <p>At Quality Food, we are committed to delivering exceptional culinary experiences through the finest ingredients and meticulous preparation. Our dedication to quality ensures that every dish we create is not only delicious but also nourishing.</p>
+
+        <h3>Our Commitment to Quality</h3>
+        <ul>
+            <li><strong>Fresh Ingredients:</strong> We source the freshest ingredients from trusted suppliers. Every component of our dishes is carefully selected to ensure peak flavor and nutritional value.</li>
+            <li><strong>Sustainable Practices:</strong> We believe in sustainability and ethical sourcing. Our ingredients are sustainably farmed, supporting both the environment and local communities.</li>
+            <li><strong>Expert Preparation:</strong> Our chefs are masters of their craft, using time-honored techniques and innovative methods to bring out the best in every ingredient.</li>
+        </ul>
+
+        <h3>Our Offerings</h3>
+        <ul>
+            <li><strong>Gourmet Meals:</strong> From appetizers to desserts, our menu features a wide array of gourmet dishes that cater to diverse tastes and dietary preferences.</li>
+            <li><strong>Seasonal Specials:</strong> Enjoy the best of each season with our rotating specials, highlighting seasonal produce and flavors.</li>
+            <li><strong>Custom Catering:</strong> Make your events memorable with our custom catering services. We work with you to create a menu that perfectly suits your occasion and guests.</li>
+        </ul>
+
+        <h3>Why Choose Quality Food?</h3>
+        <ul>
+            <li><strong>Unparalleled Taste:</strong> Experience the rich, authentic flavors that come from our commitment to quality and excellence.</li>
+            <li><strong>Healthy Choices:</strong> Our dishes are not only delicious but also nutritious, made with wholesome ingredients that support a healthy lifestyle.</li>
+            <li><strong>Exceptional Service:</strong> We pride ourselves on providing top-notch service. From the moment you place an order to the final bite, we ensure a seamless and satisfying experience.</li>
+        </ul>
+
+        <h3>Join Us for a Culinary Delight</h3>
+        <p>Discover the difference that quality makes with Quality Food. Whether you're dining in, taking out, or hosting an event, we promise an unforgettable culinary experience.</p>
+    </div>
+    <hr class="border border-dark border-3 opacity-75">
+
+    <div id="online">
+        <h1>Online Order</h1>
+        <h2>Convenient and Delicious</h2>
+        <p>At Quality Food, we make it easy for you to enjoy our delicious dishes from the comfort of your home. Our online ordering system is designed to be simple, fast, and reliable, ensuring you get your favorite meals with just a few clicks.</p>
+
+        <h3>How It Works</h3>
+        <ul>
+            <li><strong>Browse Our Menu:</strong> Explore our extensive menu featuring a wide range of gourmet meals, seasonal specials, and healthy options. Whether you're craving something classic or adventurous, we have something for everyone.</li>
+            <li><strong>Place Your Order:</strong> Select your desired dishes and add them to your cart. Customize your order to suit your taste preferences and dietary needs.</li>
+            <li><strong>Choose Delivery or Pickup:</strong> Decide whether you'd like your order delivered to your doorstep or prefer to pick it up at our restaurant. Our delivery service is prompt and reliable, ensuring your food arrives hot and fresh.</li>
+            <li><strong>Enjoy Your Meal:</strong> Sit back, relax, and savor the quality and taste of Quality Food. We guarantee a delightful dining experience every time.</li>
+        </ul>
+
+        <h3>Why Order Online?</h3>
+        <ul>
+            <li><strong>Easy Navigation:</strong> Our user-friendly website makes it simple to find and order your favorite dishes.</li>
+            <li><strong>Fast Service:</strong> We prioritize speed without compromising on quality, ensuring your meal is prepared and delivered promptly.</li>
+            <li><strong>Secure Payment:</strong> Our secure payment system protects your information, providing a safe and worry-free ordering process.</li>
+            <li><strong>Special Offers:</strong> Enjoy exclusive discounts and special offers available only through our online ordering platform.</li>
+        </ul>
+
+        <h3>Customer Support</h3>
+        <p>Need help with your order? Our dedicated customer support team is here to assist you. Whether you have questions about the menu, need help with customization, or have any concerns, we're just a call or click away.</p>
+
+        <h3>Order Now</h3>
+        <p>Experience the convenience and quality of Quality Food. Place your order online today and enjoy a gourmet meal in the comfort of your own home.</p>
+    </div>
+    <hr class="border border-dark border-3 opacity-75">
+
+    <div id="247service">
+        <h1>24/7 Service</h1>
+        <h2>Anytime, Anywhere</h2>
+        <p>At Quality Food, we understand that cravings can strike at any time, day or night. That's why we're proud to offer our exceptional culinary services 24 hours a day, 7 days a week. Whether it's an early morning breakfast, a late-night snack, or anything in between, we've got you covered.</p>
+
+        <h3>Why Choose Our 24/7 Service?</h3>
+        <ul>
+            <li><strong>Always Available:</strong> No matter the hour, our kitchen is always open to prepare your favorite dishes. Enjoy the convenience of ordering whenever you want.</li>
+            <li><strong>Quick and Reliable:</strong> Our team is dedicated to providing fast and reliable service around the clock. You can count on us to deliver your meal promptly, no matter the time.</li>
+            <li><strong>Fresh and Delicious:</strong> We never compromise on quality. Every meal is prepared with the same attention to detail and commitment to excellence, regardless of the time of day.</li>
+            <li><strong>Wide Selection:</strong> Our full menu is available 24/7, so you can choose from a wide range of gourmet meals, healthy options, and seasonal specials whenever you place an order.</li>
+        </ul>
+
+        <h3>How to Order</h3>
+        <ul>
+            <li><strong>Browse Our Menu:</strong> Explore our comprehensive menu online. From breakfast favorites to dinner delights and midnight snacks, we have something for every craving.</li>
+            <li><strong>Place Your Order:</strong> Add your selections to your cart and customize them to your liking. Our simple and intuitive ordering process ensures a seamless experience.</li>
+            <li><strong>Choose Delivery or Pickup:</strong> Select your preferred method of receiving your order. Our efficient delivery service operates 24/7, and pickup is always an option if you prefer to come by.</li>
+            <li><strong>Enjoy Anytime:</strong> Receive your meal at your convenience and enjoy the taste and quality of Quality Food any time of the day or night.</li>
+        </ul>
+
+        <h3>Customer Support</h3>
+        <p>Our customer support team is available 24/7 to assist you with any questions or concerns. Whether you need help with your order or have feedback, we're here to ensure you have the best experience possible.</p>
+
+        <h3>Order Now</h3>
+        <p>Experience the freedom of enjoying gourmet meals whenever you want. Order online and take advantage of our 24/7 service today!</p>
+    </div>
+    <hr class="border border-dark border-3 opacity-75">
+</div>
+<!--end show more info-->
+
+<!-- start footer-->
+<div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h4 class="section-title ff-secondary text-start text-warning fw-normal mb-4">Company</h4>
+                <a class="btn btn-link text-warning" href="about.html">About Us</a>
+                <a class="btn btn-link text-warning" href="contact.html">Contact Us</a>
+                <a class="btn btn-link text-warning" href="menu.html">Reservation</a>
+                <a class="btn btn-link text-warning" href="">Privacy Policy</a>
+                <a class="btn btn-link text-warning" href="">Terms & Condition</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="section-title ff-secondary text-start text-warning fw-normal mb-4">Contact</h4>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Rafedea Street, Nablus, palestine</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+970 592163158</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" target="_blank" href="http://twitter.com"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social" target="_blank" href="http://facebook.com"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" target="_blank" href="http://youtube.com"><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social" target="_blank" href="http://linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="section-title ff-secondary text-start text-warning fw-normal mb-4">Opening</h4>
+                <h5 class="text-light fw-normal">Our Time to Open</h5>
+                <a href="../html/service.html" class="text-warning">Service</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="section-title ff-secondary text-start text-warning fw-normal mb-4">Newsletter</h4>
+                <p>Dear Customer,
+                    Welcome to the new edition of the Palestinian Restaurant newsletter! We're thrilled to keep you updated on the latest happenings, special events, and exclusive offers at Restaurant . Thank you for being a valued member of our community.</p>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control border-warning w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                    <a href="register.html"><button type="button" class="btn btn-warning py-2 position-absolute top-0 end-0 mt-2 me-2" >SignUp</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center mb-5 ">
+                    &copy; <a class="border-bottom text-warning" href="#">BY Mhmd&Jawad</a> | All Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-menu">
+                        <a class="text-warning" href="">Home</a>
+                        <a class="text-warning" href="">Cookies</a>
+                        <a class="text-warning" href="">Help</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end footer-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>

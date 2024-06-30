@@ -1,0 +1,45 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+::selection {
+    color: white;
+    background: #ffc400;
+}
+.icon-img{
+    border-radius: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.navbar-toggler{
+    color: white;
+    border-color: white;
+    font-size: 25px;
+}
+.first-link:active{
+    color: #ffc400;
+}
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color:#ffc400;
+}
+
+.navbar-nav .nav-item .nav-link:not(:hover){
+    transform: scale(.85);
+    opacity: .5;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    border-bottom: solid;
+    transition: 1s;
+}
+
+
+.edit-head{
+    font-weight: bold;
+    margin-top:30px ;
+    font-size: 50px;
+}
